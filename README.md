@@ -2,7 +2,7 @@
 
 [![Node.js Package](https://github.com/exaland/n8n-nodes-sip/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/exaland/n8n-nodes-sip/actions/workflows/npm-publish.yml)
 
-
+[![Docker](https://github.com/exaland/n8n-nodes-sip/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/exaland/n8n-nodes-sip/actions/workflows/docker-publish.yml)
 
 Module communautaire n8n pour déclencher des appels SIP via un **SIP worker HTTP**.
 
