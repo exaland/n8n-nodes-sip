@@ -12,6 +12,7 @@
     "format": "prettier --write nodes credentials worker/src",
     "worker:dev": "tsx worker/src/server.ts",
     "worker:build": "tsc -p worker/tsconfig.json"
+    
   },
   "files": [
     "dist",

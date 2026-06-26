@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx src/worker.ts",
-    "start": "node --loader tsx src/worker.ts"
+    "start": "node --import tsx src/server.ts"
   },
   "dependencies": {
     "dotenv": "^16.4.7",

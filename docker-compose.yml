@@ -1,0 +1,24 @@
+services:
+  sip-worker:
+    container_name: n8n-nodes-sip
+    image: n8n-nodes-sip-sip-worker:latest
+    working_dir: /app
+    command: sh -c "cd /app/worker && npm run start"
+    volumes:
+      - ../:/app
+      - worker_data:/app/worker
+    ports:
+      - "3030:3008"
+    environment:
+        - SIP_HOST=178.105.206.0
+        - SIP_PORT=5060
+        - SIP_DOMAIN=asterisk.exaland.live
+        - SIP_AUTH_USER=4000
+        - SIP_PASSWORD=abcd1234
+        - SIP_FROM=sip:4000@asterisk.exaland.live
+        - SIP_CONTACT_HOST=180.178.51.210
+        - RTP_IP=180.178.51.210
+        - SIP_WORKER_API_KEY=secret
+volumes:
+  worker_data:
+    driver: local
