@@ -1,5 +1,9 @@
 # n8n-nodes-sip
 
+[![Node.js Package](https://github.com/exaland/n8n-nodes-sip/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/exaland/n8n-nodes-sip/actions/workflows/npm-publish.yml)
+
+
+
 Module communautaire n8n pour déclencher des appels SIP via un **SIP worker HTTP**.
 
 Ce package contient :
